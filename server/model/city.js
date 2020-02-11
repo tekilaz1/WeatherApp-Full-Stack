@@ -3,16 +3,18 @@ const Schema = mongoose.Schema
 
 
 
-const citySchema = new Schema({
-    name: String,
-    temperature: Number,
-    condition: String,
-    conditionPic: String,
+const bookSchema = new Schema({
+    authors: String,
+    publisher: String,
+    title: String,
+    publishedDate: Date,
+    pageCount :Number
     
 })
 
-const City = mongoose.model("city", citySchema)
-module.exports = City
+const Book = mongoose.model("book", bookSchema)
+
+module.exports = Book
 
 
 

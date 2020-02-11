@@ -1,0 +1,114 @@
+
+body {
+    background-color: rgb(130, 236, 157);
+   
+  }
+
+
+    .notch { 
+    background-color: rgb(130, 236, 157);
+
+
+
+    position: relative;
+     margin-top: 0%;
+   
+    width : 230px; 
+    height: 6%;
+    align-content: center;
+    justify-self: center;
+    margin-left: 13.1%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: rgb(0, 0, 0);
+
+
+  } 
+
+
+
+
+
+
+  .Appcontainer{
+    position: absolute;
+     background-image: url("cloud.jpg"); opacity: 0.8; 
+     margin-top: 1%;
+    background-color: blueviolet;
+    width : 320px; 
+    height: 90%;
+    align-content: center;
+    justify-self: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 30px;
+
+  }
+
+
+
+  #city-name {
+    display:  inline-block;
+        position: relative;
+         font-size: 170%;
+         white-space: 45%; 
+         
+  }
+  #city-temperature{
+    position: relative;
+    white-space: 15%;
+    display: inline;
+        /* padding-left: 40%; */
+         font-size: 150%; 
+         
+  }
+#weather-conditions{
+  display: inline-block;
+  white-space: 10%;
+  position: relative;
+     /* padding-left: 65%; */
+         font-size: 100%;
+}
+#weather-conditions-pic{
+  position: relative;
+  /* padding-left: 70%; */
+  white-space: normal;
+    width: 25%;
+    height: 10%;
+}
+
+#humidity{
+  position: relative;
+  white-space: 2%;
+  display: inline;
+  font-size: 90%;
+  color: black;
+
+}
+
+  #input {
+    position: relative;
+       width: 70%;
+       height: 8%;
+       margin-top: 10%;
+       padding: 10px;
+       font-size: 14px;
+       font-weight: bold;
+       border-radius: 20px;
+}
+
+
+
+.search{
+
+    position: relative;
+    background-color: rgb(21, 231, 231);
+    width: 28%;
+    height: 8%;
+    margin-top: 10%;
+    margin-left: 0.5%;
+    font-size: 120%;
+
+    font-weight: bold;
+    border-radius: 10px;
+}
