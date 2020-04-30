@@ -22,7 +22,7 @@
     "body": "^5.1.0",
     "express": "^4.17.1",
     "handlebars": "^4.5.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "module": "^1.2.5",
     "moments": "0.0.2",
     "mongoose": "^5.8.1",
